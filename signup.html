@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center justify-center min-h-screen bg-indigo-600">
+      <div class="bg-white p-8 rounded-lg shadow-lg w-80 text-center">
+        <h2 class="text-purple-700 text-2x1 font-bold mb-6">Sign In</h2>
+        <form>
+          <label
+            for="name"
+            class="block text-left font-bold text-purple-500 mb-3"
+            >Name</label
+          >
+          <input
+            type="text"
+            placeholder="Enter your full name"
+            class="py-2 px-3 w-full mb-4 border-2 border-black rounded-lg"
+            required
+          />
+          <label
+            for="email"
+            class="block text-left font-bold text-purple-500 mb-3"
+            >E-mail</label
+          >
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="py-2 px-3 w-full mb-4 border-2 border-black rounded-lg"
+            required
+          />
+          <label
+            for="password"
+            class="block text-left font-bold text-purple-500 mb-3"
+            >Password</label
+          >
+          <input
+            type="password"
+            placeholder="Enter your password"
+            class="py-2 px-3 w-full mb-4 border-2 border-black rounded-lg"
+            required
+          />
+          <button
+            type="submit"
+            class="w-40 bg-purple-500 border-2 border-black rounded-lg mt-6 font-bold text-white p-1.5 hover:bg-purple-600"
+          >
+            Sign Up
+          </button>
+
+          <p class="mt-6">
+            Van már fiókod?
+            <a
+              href="/signin.html"
+              class="text-purple-500 font-bold hover:underline"
+              >Jelentkezz be itt!</a
+            >
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
